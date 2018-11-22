@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 })
 
 type Props = {
-  value?: string
+  value: string
   onChangeText: () => void
   label: string
   placeholder?: string

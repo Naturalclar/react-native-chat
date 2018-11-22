@@ -1,3 +1,10 @@
 module.exports = {
-  extends: ['airbnb', 'prettier/recommended'],
+  extends: ['airbnb', 'plugin:prettier/recommended'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
 }
